@@ -18,11 +18,10 @@
                     let msg = document.querySelector("#Zahleneingabe").value;
             >
             <button type="button"
-            onclick="document.getElementbyId('Zahl').innerHTML"
-            let x = document.querySelector("#Zahl").value;
+            onclick="document.querySelector('Zahl').value"
              var y = 0
                 function AddiEingabe() {
-                while (y < x) {
+                while (y < Zahl) {
                     <input  type"text"
                         name"Additionseingabe"
                         value""
