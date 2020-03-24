@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="de">
+        <head>
+                <meta charset="utf-8" />
+                <title>Rechenübung_1
+            </title>
+        </head>
+        <body>
+            <h1>Additionseingabe</h1>
+            <h2>Wie viele Zahlen möchtest du Addieren?</h2>
+            <input  type="text" 
+                    name"Zahleneingabe" 
+                    value""
+                    pattern="[0-9]+"
+                    required
+                    id="Zahl"
+                    let msg = document.querySelector("#Zahleneingabe").value;
+            >
+            <button type="button"
+            onclick="document.getElementbyId('Zahl').innerHTML = var x"
+            <div>
+
+            </button>function ErstelleEingabe(){
+                var y = 0
+                while (y < x) {
+                <input  type"text"
+                        name"Additionseingabe"
+                        value""
+                        pattern="[0-9]+"
+                        requiredid="Zahl"
+                        let msg = document.querySelector("#Zahl").value;
+                x ++
+                }
+            }>
+            </x>div>
+            Eingabe
+            </button>
+            
+
+        </body>
+</html>
