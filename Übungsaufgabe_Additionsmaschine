@@ -20,25 +20,21 @@
             <button type="button"
             onclick="document.getElementbyId('Zahl').innerHTML"
             let x = document.querySelector("#Zahl").value;
-          
-
-            </button>
-
-                
-                    <var y = 0
-                    while (y < x) {
+             var y = 0
+                function AddiEingabe() {
+                while (y < x) {
                     <input  type"text"
                         name"Additionseingabe"
                         value""
                         pattern="[0-9]+"
                         requiredid="Zahl"
-                        
-                         y ++
-                     }
-                    >
-            
-            Eingabe
+                        y ++
+                }
+                }
+                    
             </button>
+            Eingabe
+            
             
 
         </body>
