@@ -13,6 +13,7 @@ onclick="alert('hallo chris');">
 Fick Dich</button>
 
 <div 
+onmouseout="this.style.backgroundColor='white'"
 onmouseover
 ="this.style.backgroundColor='red'">lassmalFarbewechseln.</div>   //wie mache ich das Rückgängig sobald die Maus vom Objekt runter ist?
 
